@@ -48,7 +48,7 @@ thumbnail: await(await conn.getFile(thumbnail)).data
 }
 handler.help = ['song','play']
 handler.tags = ['downloader']
-handler.command = /^song|play$/i
+handler.command = /^اغنيه$/i
 
 export default handler
 
